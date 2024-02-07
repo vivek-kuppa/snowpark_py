@@ -22,4 +22,4 @@ df = session.table("COMPANY").select(col("pincode"))
 df.show(10)
 
 # Remember to close the session when you're done
-session.close()
+
